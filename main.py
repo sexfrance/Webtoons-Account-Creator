@@ -23,7 +23,7 @@ from logmagix import Logger, Home
 from mailtmwrapper import MailTM
 from random_header_generator import HeaderGenerator
 
-home = Home("Webtoons Account Creator", align="center", credits="discord.cyberious.xyz")
+home = Home("Webtoons Creator", align="center", credits="discord.cyberious.xyz")
 log = Logger()
 session = tls_client.Session(client_identifier="chrome_131", random_tls_extension_order=True)
 
@@ -108,14 +108,14 @@ class RateLimiter:
             
             self.requests.append(now)
 
-    def update_title(self):
-        try:
-            global total
+def update_title():
+    try:
+        global total
 
-            title = f'discord.cyberious.xyz | Total: {total} | Time Elapsed: {round(timestamp() - genStartTime, 2)}s'
-            ctypes.windll.kernel32.SetConsoleTitleW(title)
-        except Exception as e:
-            pass
+        title = f'discord.cyberious.xyz | Total: {total} | Time Elapsed: {round(timestamp() - genStartTime, 2)}s'
+        ctypes.windll.kernel32.SetConsoleTitleW(title)
+    except Exception as e:
+        pass
 
 def run_in_new_loop(coro):
     loop = asyncio.new_event_loop()
@@ -496,7 +496,7 @@ async def create_account(email: str = None, password: str = None, username: str 
                     await save_account(email, password)
                     global total
                     total += 1
-                    RateLimiter.update_title()
+                    update_title()
                     return True
             
             log.failure("Failed to verify email")
