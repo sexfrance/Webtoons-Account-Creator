@@ -1,0 +1,6 @@
+Proxyless: false # If you want to use proxies
+Debug: false # For debugging in case of errors
+RateLimit:
+  MaxRequests: 10 # Adjust based on your needs
+  TimeWindow: 60 # Seconds
+Threads: 10 # Adjust based on your CPU/network capacity
