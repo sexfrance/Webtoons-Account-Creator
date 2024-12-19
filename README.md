@@ -54,6 +54,7 @@ This script is an asynchronous account generator for Webtoons that features prox
 
 ### ❗ Disclaimers
 
+- This project is for education purposes **only** its goal is to understand webtoons' API better. We strongly suggest that you not use it to mass generate accounts because it is against their [**terms of service**](https://www.webtoons.com/en/terms). 
 - I am not responsible for anything that may happen, such as API Blocking, IP ban, etc.
 - This was a quick project that was made for fun and personal use if you want to see further updates, star the repo & create an "issue" [here](https://github.com/sexfrance/Webtoons-Account-Creator/issues/)
 
