@@ -1,16 +1,16 @@
 <div align="center">
-  <h2 align="center">Webtoon Account Creator</h2>
+  <h2 align="center">Webtoons Account Creator</h2>
   <p align="center">
-This script is an asynchronous account generator for Webtoon that features proxy support, RSA encryption, and efficient batch processing. It automatically creates Webtoon accounts with random credentials, validates the creation process, and provides formatted output.
+This script is an asynchronous account generator for Webtoons that features proxy support, RSA encryption, and efficient batch processing. It automatically creates Webtoons accounts with random credentials, validates the creation process, and provides formatted output.
     <br />
     <br />
     <a href="https://discord.cyberious.xyz">💬 Discord</a>
     ·
-    <a href="https://github.com/sexfrance/Webtoon-Account-Creator#-changelog">📜 ChangeLog</a>
+    <a href="https://github.com/sexfrance/Webtoons-Account-Creator#-changelog">📜 ChangeLog</a>
     ·
-    <a href="https://github.com/sexfrance/Webtoon-Account-Creator/issues">⚠️ Report Bug</a>
+    <a href="https://github.com/sexfrance/Webtoons-Account-Creator/issues">⚠️ Report Bug</a>
     ·
-    <a href="https://github.com/sexfrance/Webtoon-Account-Creator/issues">💡 Request Feature</a>
+    <a href="https://github.com/sexfrance/Webtoons-Account-Creator/issues">💡 Request Feature</a>
   </p>
 </div>
 
@@ -25,7 +25,7 @@ This script is an asynchronous account generator for Webtoon that features proxy
 
 ### 🔥 Features
 
-- Creates Webtoon accounts automatically with random or custom credentials
+- Creates Webtoons accounts automatically with random or custom credentials
 - Supports both proxy and proxyless modes
 - Logs results with different levels (success, failure)
 - Generates random valid email addresses and secure passwords
@@ -55,7 +55,7 @@ This script is an asynchronous account generator for Webtoon that features proxy
 ### ❗ Disclaimers
 
 - I am not responsible for anything that may happen, such as API Blocking, IP ban, etc.
-- This was a quick project that was made for fun and personal use if you want to see further updates, star the repo & create an "issue" [here](https://github.com/sexfrance/Webtoon-Account-Creator/issues/)
+- This was a quick project that was made for fun and personal use if you want to see further updates, star the repo & create an "issue" [here](https://github.com/sexfrance/Webtoons-Account-Creator/issues/)
 
 ---
 
@@ -69,7 +69,7 @@ v0.0.1 ⋮ 12/07/2024
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/sexfrance/Webtoon-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=IOTA"/>
-  <img src="https://img.shields.io/github/stars/sexfrance/Webtoon-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=IOTA"/>
-  <img src="https://img.shields.io/github/languages/top/sexfrance/Webtoon-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=python"/>
+  <img src="https://img.shields.io/github/license/sexfrance/Webtoons-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=IOTA"/>
+  <img src="https://img.shields.io/github/stars/sexfrance/Webtoons-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=IOTA"/>
+  <img src="https://img.shields.io/github/languages/top/sexfrance/Webtoons-Account-Creator.svg?style=for-the-badge&labelColor=black&color=f429ff&logo=python"/>
 </p>
